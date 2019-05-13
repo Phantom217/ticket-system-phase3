@@ -88,7 +88,7 @@ router.get("/ticket/:id", function(req,res) {
 });
 
 /* find ticket by id and send back as xml */
-router.get("xml/ticket/:id", function(req,res) {
+router.get("/xml/ticket/:id", function(req,res) {
     db.collection(TICKETS_COLLECTION).findOne({ id:req.params.id }. function(err, doc) {
         if (err) {
             handleError(res, err.message, "Failed to get ticket");
