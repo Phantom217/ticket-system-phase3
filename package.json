@@ -1,0 +1,29 @@
+{
+  "name": "ticket-system-phase3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git+https://github.com/phantom217/ticket-system-phase3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phantom217/ticket-system-phase3/issues"
+  },
+  "homepage": "https://github.com/phantom217/ticket-system-phase3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-xml-parser": "^1.0.0",
+    "js2xmlparser": "^4.0.0",
+    "mongodb": "^3.2.3",
+    "xml2js": "^0.4.19"
+  }
+}
