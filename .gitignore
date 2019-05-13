@@ -86,3 +86,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# report files
+*.odt
+*.pdf
+*.7z
